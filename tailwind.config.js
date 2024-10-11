@@ -18,6 +18,9 @@ export default {
       },
       backgroundImage: {
         'customGradient': 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(53,51,205,1) 100%)',
+      },
+      inset: {
+        '75rem': '75rem',
       }
     },
   },

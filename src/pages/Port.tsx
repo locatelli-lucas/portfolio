@@ -5,6 +5,8 @@ import {FaBook} from "react-icons/fa";
 import {HiMiniCodeBracket} from "react-icons/hi2";
 
 export function Port() {
+    
+
     return (
        <body className='text-customBlue font-mono'>
            <header >
@@ -189,6 +191,12 @@ export function Port() {
                            </div>
                        </div>
                    </div>
+               </section>
+               <section className='relative top-[75rem] px-96'>
+                   <h1 className='font-bold text-xl text-center'>
+                       My latest projects
+                   </h1>
+
                </section>
            </main>
        </body>
