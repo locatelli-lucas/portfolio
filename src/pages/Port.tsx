@@ -1,6 +1,8 @@
 import Picture from '../assets/pic.png'
 import Computers from '../assets/computers.png'
 import { BsLightningChargeFill } from "react-icons/bs";
+import {FaBook} from "react-icons/fa";
+import {HiMiniCodeBracket} from "react-icons/hi2";
 
 export function Port() {
     return (
@@ -57,152 +59,130 @@ export function Port() {
                                </div>
                                <div>
                                    <span className='font-semibold text-lg mb-4'>What I did:</span>
-                                   <ul className='list-disc flex flex-col justify-start gap-y-5'>
+                                   <ul className='flex flex-col justify-start gap-y-5'>
                                        <li>
-                                           <span>
-                                                Remote and in-person customer service;
-                                           </span>
+                                           Remote and in-person customer service;
                                        </li>
                                        <li>
-                                           <span>
-                                               Electrical and mechanical maintenance on machines provided by the company;
-                                           </span>
+                                           Electrical and mechanical maintenance on machines provided by the company;
                                        </li>
                                        <li>
-                                           <span>
-                                               Trips for installation and/or maintenance of machines;
-                                           </span>
+                                           Trips for installation and/or maintenance of machines;
                                        </li>
                                        <li>
-                                           <span>
-                                               Installation and Configuration of Frequency Inverter and PLC;
-                                           </span>
+                                           Installation and Configuration of Frequency Inverter and PLC;
                                        </li>
                                        <li>
-                                           <span>
-                                               Remote and in-person customer service, including factory visits for maintenance/installation in machines;
-                                           </span>
+                                           Remote and in-person customer service, including factory visits for maintenance/installation in machines;
                                        </li>
                                        <li>
-                                           <span>
-                                               Electrical and mechanical maintenance on cutting machines in the footwear industry;
-                                           </span>
+                                           Electrical and mechanical maintenance on cutting machines in the footwear industry;
                                        </li>
                                    </ul>
                                </div>
                            </div>
                        </div>
-                       <div className='p-14 border-r'>
+                       <div className='py-14 px-11 border-r'>
                            <div className='bg-cyan-300 w-20 h-20 pt-4 rounded-full mx-auto mb-6'>
-                               <BsLightningChargeFill className='size-12 mx-auto'/>
+                               <FaBook className='size-12 mx-auto'/>
                            </div>
                            <div className='flex justify-center flex-col gap-y-16'>
-                               <h3 className='text-2xl font-bold'>Electrotechnician</h3>
-                               <p className='font-semibold text-lg'>
-                                   I worked for 3 years as a formed Technician, traveling, visiting clients, fixing machines at industrial
-                                   environments and learning about the job market
+                               <h3 className='text-2xl font-bold'>Student</h3>
+                               <p className='font-semibold text-lg w-96'>
+                                   Since I started doing Computer Science, I've studied a few languages, focusing on logical problems and small
+                                   programs, and database, solving consultation issues.
                                </p>
                                <div>
-                                   <span className='font-semibold text-lg mb-4'>Companies I've worked at:</span>
-                                   <ul className=''>
-                                       <li className='hover:underline'>
-                                           <a href="https://www.coester.com.br">Coester Automação</a>
+                                   <span className='font-semibold text-lg mb-4'>Languages I speak:</span>
+                                   <ul className='flex flex-col gap-y-1'>
+                                       <li>
+                                           Javascript
                                        </li>
-                                       <li className='hover:underline'>
-                                           <a href="https://atom.it">ATOM Brasil</a>
+                                       <li>
+                                           Java
+                                       </li>
+                                       <li>
+                                           Python
+                                       </li>
+                                       <li>
+                                           HTML
+                                       </li>
+                                       <li>
+                                           CSS
+                                       </li>
+                                       <li>
+                                           SQL
                                        </li>
                                    </ul>
                                </div>
                                <div>
-                                   <span className='font-semibold text-lg mb-4'>What I did:</span>
-                                   <ul className='list-disc flex flex-col justify-start gap-y-5'>
+                                   <span className='font-semibold text-lg mb-4'>Dev tools:</span>
+                                   <ul className='flex flex-col gap-y-1'>
                                        <li>
-                                           <span>
-                                                Remote and in-person customer service;
-                                           </span>
+                                           VSCode
                                        </li>
                                        <li>
-                                           <span>
-                                               Electrical and mechanical maintenance on machines provided by the company;
-                                           </span>
+                                           Intellij
                                        </li>
                                        <li>
-                                           <span>
-                                               Trips for installation and/or maintenance of machines;
-                                           </span>
+                                           React
                                        </li>
                                        <li>
-                                           <span>
-                                               Installation and Configuration of Frequency Inverter and PLC;
-                                           </span>
+                                           Typescript
                                        </li>
                                        <li>
-                                           <span>
-                                               Remote and in-person customer service, including factory visits for maintenance/installation in machines;
-                                           </span>
+                                           UI5
                                        </li>
                                        <li>
-                                           <span>
-                                               Electrical and mechanical maintenance on cutting machines in the footwear industry;
-                                           </span>
+                                           CAP
+                                       </li>
+                                       <li>
+                                           Spring Boot
+                                       </li>
+                                       <li>
+                                           Github
+                                       </li>
+                                       <li>
+                                           Tailwind CSS
+                                       </li>
+                                       <li>
+                                           Netlify
                                        </li>
                                    </ul>
                                </div>
                            </div>
                        </div>
-                       <div className='p-14 border-r'>
+                       <div className='py-14 px-11 border-l'>
                            <div className='bg-cyan-300 w-20 h-20 pt-4 rounded-full mx-auto mb-6'>
-                               <BsLightningChargeFill className='size-12 mx-auto'/>
+                               <HiMiniCodeBracket className='size-12 mx-auto'/>
                            </div>
                            <div className='flex justify-center flex-col gap-y-16'>
-                               <h3 className='text-2xl font-bold'>Electrotechnician</h3>
-                               <p className='font-semibold text-lg'>
-                                   I worked for 3 years as a formed Technician, traveling, visiting clients, fixing machines at industrial
-                                   environments and learning about the job market
+                               <h3 className='text-2xl font-bold'>Development Intern</h3>
+                               <p className='font-semibold text-lg w-96'>
+                                   The internship program involves front-end development of a cloud-native BTP (Business Technology Platform) product using both Front and Back-end languages. Additionally, I work in an international team, practicing agile software engineering methodologies.
                                </p>
                                <div>
-                                   <span className='font-semibold text-lg mb-4'>Companies I've worked at:</span>
-                                   <ul className=''>
-                                       <li className='hover:underline'>
-                                           <a href="https://www.coester.com.br">Coester Automação</a>
+                                   <span className='font-semibold text-lg mb-4'>Languages I use:</span>
+                                   <ul className='flex flex-col gap-y-1'>
+                                       <li>
+                                           Javascript
                                        </li>
-                                       <li className='hover:underline'>
-                                           <a href="https://atom.it">ATOM Brasil</a>
+                                       <li>
+                                           Java
+                                       </li>
+                                       <li>
+                                           SQL
                                        </li>
                                    </ul>
                                </div>
                                <div>
-                                   <span className='font-semibold text-lg mb-4'>What I did:</span>
-                                   <ul className='list-disc flex flex-col justify-start gap-y-5'>
+                                   <span className='font-semibold text-lg mb-4'>Dev tools:</span>
+                                   <ul className='flex flex-col gap-y-1'>
+                                      <li>
+                                          UI5
+                                      </li>
                                        <li>
-                                           <span>
-                                                Remote and in-person customer service;
-                                           </span>
-                                       </li>
-                                       <li>
-                                           <span>
-                                               Electrical and mechanical maintenance on machines provided by the company;
-                                           </span>
-                                       </li>
-                                       <li>
-                                           <span>
-                                               Trips for installation and/or maintenance of machines;
-                                           </span>
-                                       </li>
-                                       <li>
-                                           <span>
-                                               Installation and Configuration of Frequency Inverter and PLC;
-                                           </span>
-                                       </li>
-                                       <li>
-                                           <span>
-                                               Remote and in-person customer service, including factory visits for maintenance/installation in machines;
-                                           </span>
-                                       </li>
-                                       <li>
-                                           <span>
-                                               Electrical and mechanical maintenance on cutting machines in the footwear industry;
-                                           </span>
+                                           CAP
                                        </li>
                                    </ul>
                                </div>
