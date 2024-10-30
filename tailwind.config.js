@@ -13,15 +13,10 @@ export default {
           '100%': { width: '100%' },
         },
       },
-      animation: {
-        underline: 'underline 0.5s ease-out forwards',
-      },
-      backgroundImage: {
-        'customGradient': 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(53,51,205,1) 100%)',
-      },
       inset: {
         '75rem': '75rem',
-      }
+        '55vw': '55vw',
+      },
     },
   },
   plugins: [],
