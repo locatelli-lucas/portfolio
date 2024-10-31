@@ -17,6 +17,9 @@ export default {
         '75rem': '75rem',
         '55vw': '55vw',
       },
+      backgroundImage: {
+        'bgImage:': "url('https://raw.githubusercontent.com/locatelli-lucas/barbearia/master/bgImage.jpg')"
+      }
     },
   },
   plugins: [],

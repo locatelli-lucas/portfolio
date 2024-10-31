@@ -1,9 +1,10 @@
 import Picture from '../assets/pic.png'
 import Computers from '../assets/computers.png'
 import { BsLightningChargeFill } from "react-icons/bs";
-import {FaBook} from "react-icons/fa";
+import {FaBook, FaGithub, FaLinkedin, FaWhatsapp} from "react-icons/fa";
 import {HiMiniCodeBracket} from "react-icons/hi2";
 import {ProjectList} from "../components/ProjectList.tsx";
+import {MdEmail} from "react-icons/md";
 
 export function Port() {
     
@@ -162,7 +163,9 @@ export function Port() {
                            <div className='flex justify-center flex-col gap-y-16'>
                                <h3 className='text-2xl font-bold'>Software Development Intern</h3>
                                <p className='font-semibold text-lg w-96'>
-                                   The internship program involves front-end development of a cloud-native BTP (Business Technology Platform) product using both Front and Back-end languages. Additionally, I work in an international team, practicing agile software engineering methodologies.
+                                   The internship program involves front-end development of a cloud-native BTP (Business Technology Platform) product
+                                   using both Front and Back-end languages. Additionally, I work in an international team, practicing agile software
+                                   engineering methodologies.
                                </p>
                                <div>
                                    <span className='font-semibold text-lg mb-4'>Languages I use:</span>
@@ -181,9 +184,9 @@ export function Port() {
                                <div>
                                    <span className='font-semibold text-lg mb-4'>Dev tools:</span>
                                    <ul className='flex flex-col gap-y-1'>
-                                      <li>
-                                          UI5
-                                      </li>
+                                       <li>
+                                           UI5
+                                       </li>
                                        <li>
                                            CAP
                                        </li>
@@ -198,10 +201,16 @@ export function Port() {
                        My latest projects
                    </h1>
                    <div className="relative top-12">
-                       <ProjectList />
+                       <ProjectList/>
                    </div>
                </section>
            </main>
+       <footer className="relative flex ">
+           <FaLinkedin />
+           <FaGithub />
+           <FaWhatsapp />
+           <MdEmail />
+       </footer>
        </body>
     )
 }

@@ -23,7 +23,7 @@ export function ProjectList() {
             <div className='flex flex-wrap gap-5 relative justify-evenly'>
                 {
                     projects?.map((project) => (
-                        <Project name={project.name} url={project.url} page={project.page} key={project.id}/>
+                        <Project name={project.name} html_url={project.html_url} page={project.page} key={project.id}/>
                     ))
                 }
             </div>

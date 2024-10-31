@@ -3,7 +3,7 @@ import {API} from "./API.ts";
 export type ProjectType = {
     id: number;
     name: string;
-    url: string;
+    html_url: string;
     page?: string;
 }
 
