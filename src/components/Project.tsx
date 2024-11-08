@@ -6,12 +6,12 @@ interface ProjectType {
 
 export function Project({name, html_url}: ProjectType) {
     return (
-        <div className="text-white">
+        <div className="text-white transition-all duration-500 hover:m-4">
             <div style={{
                 backgroundImage: `url('https://raw.githubusercontent.com/locatelli-lucas/${name}/master/bgImage.jpg')`}}
                  className="bg-center bg-cover bg-no-repeat flex justify-center items-center w-80 h-32 text-white rounded-2xl transition-all duration-300">
             </div>
-            <div className='flex flex-col gap-y-4 justify-center items-center relative opacity-0 bottom-32 backdrop-blur-md backdrop-opacity-100 w-80 h-32 rounded-2xl transition duration-300 -mb-32 hover:opacity-100 text-3xl font-extrabold'>
+            <div className='flex flex-col gap-y-4 justify-center items-center relative opacity-0 bottom-32 backdrop-blur-md backdrop-opacity-100 w-80 h-32 rounded-2xl transition duration-300 -mb-32 hover:opacity-100 hover:backdrop-brightness-50 text-3xl font-extrabold'>
                 <a href={html_url} className="hover:underline">{name}</a>
             </div>
         </div>

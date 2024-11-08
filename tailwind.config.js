@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{ts,tsx}"],
+  content: {
+    relative: true,
+    transform: (content) => content.replace(/taos:/g, ''),
+    files: ["./src/**/*.{ts,tsx}"]
+  },
   theme: {
     extend: {
       colors: {
@@ -16,12 +20,17 @@ export default {
       inset: {
         '75rem': '75rem',
         '55vw': '55vw',
+        '85em': '85em'
       },
-      backgroundImage: {
-        'bgImage:': "url('https://raw.githubusercontent.com/locatelli-lucas/barbearia/master/bgImage.jpg')"
-      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('taos/plugin')
+  ],
+  safelist: [
+    '!duration-[0ms]',
+    '!delay-[0ms]',
+    'html.js :where([class*="taos:"]:not(.taos-init))'
+  ]
 }
 
