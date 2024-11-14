@@ -20,7 +20,10 @@ export default {
       inset: {
         '75rem': '75rem',
         '55vw': '55vw',
-        '85em': '85em'
+        '70vw': '70vw',
+        '85em': '85em',
+        '10vw': '10vw',
+        '90vh': '90vh'
       },
     },
   },

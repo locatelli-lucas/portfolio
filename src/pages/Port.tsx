@@ -53,7 +53,7 @@ export function Port() {
                    <img src={Picture} alt="Author's Picture" className='mx-auto'/>
                    <img src={Computers} alt="Computers art" className='mx-auto h-1/2 w-1/2'/>
                </section>
-               <section className='bg-customBlue text-white text-center px-96 py-52'>
+               <section className='bg-customBlue text-white text-center px-[10vw] py-52 h-[90vh]'>
                    <h2 className='font-bold text-3xl mb-10'>Greetings, I'm Lucas. It's a pleasure to meet you!</h2>
                    <p className='text-lg leading-loose'>
                        I'm graduated as an Electrotechnician by Liberato Foundation since 2020, and back then, I never saw myself having such a life
@@ -66,7 +66,7 @@ export function Port() {
                        variants={options}
                        initial="hidden"
                        animate={control}
-                       className='absolute bg-white text-customBlue flex justify-center flex-row mr-56 -ml-32 mt-32 rounded-2xl border'>
+                       className='relative bg-white text-customBlue flex justify-center flex-row mx-auto mt-32 rounded-2xl border w-[70vw]'>
                        <div className='p-14 border-r'>
                            <div className='bg-cyan-300 w-20 h-20 pt-4 rounded-full mx-auto mb-6'>
                                <BsLightningChargeFill className='size-12 mx-auto'/>
@@ -238,10 +238,10 @@ export function Port() {
            <footer className="flex flex-col items-center relative h-72 top-[85em]">
                <h1 className="font-bold text-3xl">Contact-me</h1>
                <div className="flex justify-center items-center my-auto gap-12">
-                   <a href="https://www.linkedin.com/in/lucasrafaellocatelli"><FaLinkedin className="size-28 hover:scale-125 hover:mx-4 transition-all duration-500"/></a>
-                   <a href="https://github.com/locatelli-lucas?tab=repositories"><FaGithub className="size-28 hover:scale-125 hover:mx-4 transition-all duration-500"/></a>
-                   <a href="https://wa.me/5551986260618"><FaWhatsapp className="size-28 hover:scale-125 hover:mx-4 transition-all duration-500"/></a>
-                   <a href="https://mailto:lucas_locatelli2002@hotmail.com"><MdEmail className="size-28 hover:scale-125 hover:mx-4 transition-all duration-500"/></a>
+                   <a href="https://www.linkedin.com/in/lucasrafaellocatelli"><FaLinkedin className="size-20 hover:scale-125 hover:mx-4 transition-all duration-500"/></a>
+                   <a href="https://github.com/locatelli-lucas?tab=repositories"><FaGithub className="size-20 hover:scale-125 hover:mx-4 transition-all duration-500"/></a>
+                   <a href="https://wa.me/5551986260618"><FaWhatsapp className="size-20 hover:scale-125 hover:mx-4 transition-all duration-500"/></a>
+                   <a href="https://mailto:lucas_locatelli2002@hotmail.com"><MdEmail className="size-20 hover:scale-125 hover:mx-4 transition-all duration-500"/></a>
                </div>
            </footer>
        </body>
