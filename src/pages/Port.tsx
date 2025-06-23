@@ -48,7 +48,7 @@ export function Port() {
            </header>
            <main>
                <section className='text-center'>
-                   <h1 className='mt-36 mb-10 font-bold text-5xl'>Fullstack Developer Intern, Student & Electrotechnician</h1>
+                   <h1 className='mt-36 mb-10 font-bold text-5xl'>Fullstack Developer, Student & Electrotechnician</h1>
                    <span className='font-mono text-2xl'>I craft and code innovative solutions, and I’m passionate about every step of the process.</span>
                    <img src={Picture} alt="Author's Picture" className='mx-auto'/>
                    <img src={Computers} alt="Computers art" className='mx-auto h-1/2 w-1/2'/>
@@ -60,7 +60,7 @@ export function Port() {
                             I'm graduated as an Electrotechnician by Liberato Foundation since 2020, and back then, I never saw myself having such a life
                             changing experience, just by having the idea of starting to code. Since then, I studied several coding languages and
                             frameworks, such as Javascript, Typescript, Java, Spring Boot, etc. By doing that, I managed to do a few projects, which
-                            allowed me to learn what I had to get my first internship in the area at SAP, where I currently work.
+                            allowed me to learn what I needed to get my first internship in the area at SAP, where I currently work.
                         </p>
                     </div>
                </section>
